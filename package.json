@@ -1,0 +1,12 @@
+{
+  "name": "kaimono-yosan",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Japanese static shopping budget memo",
+  "scripts": {
+    "test": "node tests/browser.cjs && node tests/keypad.cjs && node tests/update.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}
